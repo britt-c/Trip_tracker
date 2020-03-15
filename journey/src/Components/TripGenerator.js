@@ -19,12 +19,12 @@ function TripGenerator() {
 		}
 
  return (
-		<div>
-		<input placeholder="Name Your Trip"/><br />
-		<label> Date: </label> <input type="date" defaultValue={startDate}/><br />
-		<LocationForm />	
-		<button type="submit" onClick={handleSubmit}>Submit</button>
-	</div>
+		<div className="trip-card" >
+			<span className="icon">🌴</span><input placeholder="Name Your Trip"/><br />
+			<span className="icon">📅</span><input type="date" defaultValue={startDate}/><br />
+			<LocationForm />	
+			<button type="submit" onClick={handleSubmit}>Submit</button>
+		</div>
  )}
 export default TripGenerator
 

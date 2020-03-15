@@ -4,4 +4,21 @@
 
 li {
 	list-style: none;
+	font-size: 40px;
+}
+button {
+
+}
+input {
+	border-radius: 25px;
+	font-size: 40px;
+	align: center;	
+}
+
+.trip-card {
+	align: center;
+}
+
+.icon {
+	font-size: 40px;
 }
